@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Seleccion del tipo de caracteres -->
+    <meta charset="utf-8">
+    <!-- Autor del proyecto Juan Diego Bencardino Perdomo -->
+    <meta name="author" content="Juan Diego Bencardino Perdomo">
+    <!-- Descripción del contenido de la página -->
+    <meta name="description" content="giocco di trivia sulla cultura italiana.">
+    <!-- selección del lenguaje de la página, para mayor eficiencia en busquedas -->
+    <meta lang="it">
+    <!-- Línea para que funcione la página en dispositivos móviles -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="imagenes/italy-flag-round-icon-64.png" rel="icon" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilos/reset.css" type="text/css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="estilos/style.css" type="text/css">
+    <!-- Gem style -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- Modernizr -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Progetto Finale</title>
+</head>
+
+<body>
+    <div class="cd-gallery-container">
+        <nav class="cd-filter">
+            <ul>
+                <li class="placeholder"><a href="#0" data-type="categoria1">Red</a></li>
+                <li><a href="#0" data-type="categoria1">Arte</a></li>
+                <li><a href="#0" data-type="categoria2">Geografia</a></li>
+                <li><a href="#0" data-type="categoria3">Neorealismo</a></li>
+                <li><a href="#0" data-type="categoria4">Sport</a></li>
+                <li><a href="#0" data-type="categoria5">Storia</a></li>
+                <li><a href="#0" data-type="categoria6">Scienza</a></li>
+            </ul>
+        </nav>
+        <ul class="cd-gallery cd-container">
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i11">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i12">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i13">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i14">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i15">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i16">
+                            <div class="numero-pregunta">1</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i21">
+                            <div class="numero-pregunta">2</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i22">
+                            <div class="numero-pregunta">2</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i23">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i24">
+                            <div class="numero-pregunta">2</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i25">
+                            <div class="numero-pregunta">2</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i26">
+                            <div class="numero-pregunta">2</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i31">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i32">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i33">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i34">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i35">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i36">
+                            <div class="numero-pregunta">3</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i14" id="i41">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i42">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i43">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i44">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i45">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i46">
+                            <div class="numero-pregunta">4</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i51">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i52">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i53">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i54">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i55">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i56">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i61">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i62">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i63">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i64">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i65">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i66">
+                            <div class="numero-pregunta">6</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i71">
+                            <div class="numero-pregunta">7</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i72">
+                            <div class="numero-pregunta">7</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i73">
+                            <div class="numero-pregunta">7</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i74">
+                            <div class="numero-pregunta">5</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i75">
+                            <div class="numero-pregunta">7</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i76">
+                            <div class="numero-pregunta">7</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cd-item-wrapper">
+                    <li class="is-visible" data-type="categoria1">
+                        <div>
+                            <img src="imagenes/image1.png" alt="categoria1" class="image1" id="i81">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria2">
+                        <div>
+                            <img src="imagenes/image2.png" alt="categoria2" class="image2" id="i82">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria3">
+                        <div>
+                            <img src="imagenes/image3.png" alt="categoria3" class="image3" id="i83">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria4">
+                        <div>
+                            <img src="imagenes/image4.png" alt="categoria4" class="image4" id="i84">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria5">
+                        <div>
+                            <img src="imagenes/image5.png" alt="categoria5" class="image5" id="i85">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                    <li class="is-hidden" data-type="categoria6">
+                        <div>
+                            <img src="imagenes/image6.png" alt="categoria6" class="image6" id="i86">
+                            <div class="numero-pregunta">8</div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- cd-gallery -->
+    </div>
+    <!-- cd-gallery-container -->
+
+    <div id="myModal" class="modal">
+        <span class="close">×</span>
+        <!-- <img class="modal-content" id="img01"> -->
+        <div id="caption">Esta sería una pregunta</div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <!-- Gem jQuery -->
+</body>
+
+</html>
