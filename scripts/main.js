@@ -96,7 +96,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 
-var numpreguntas = [5, 5, 5, 5, 5, 5, 5, 5, 5];
+//var numpreguntas = [5, 5, 5, 5, 5, 5, 5, 5, 5];
 
 var cat1preguntas = [
     'Chi ha composto l\'opera "la traviata"?',
@@ -430,7 +430,7 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[29].charAt(3) - 1][id[29].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[29].charAt(3) - 1][id[29].substr(1,2) - 1];
 }
-/*
+
 img = document.getElementById(id[30]);
 img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[30].charAt(3) - 1][id[30].substr(1,2) - 1];
@@ -456,6 +456,7 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[34].charAt(3) - 1][id[34].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[34].charAt(3) - 1][id[34].substr(1,2) - 1];
 }
+
 img = document.getElementById(id[35]);
 img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[35].charAt(3) - 1][id[35].substr(1,2) - 1];
@@ -486,6 +487,7 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[40].charAt(3) - 1][id[40].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[40].charAt(3) - 1][id[40].substr(1,2) - 1];
 }
+/*
 img = document.getElementById(id[41]);
 img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[41].charAt(3) - 1][id[41].substr(1,2) - 1];
