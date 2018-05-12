@@ -63,11 +63,17 @@ Estilos que yo cambié, si algo no funciona debe estar acá
     box-shadow: 0 0 4px 4px rgba(191, 8, 170, 0.65);
 }
 
+/*li>div>img:hover {
+    box-shadow: 0 0 4px 4px rgba(255, 140, 0, 0.62);
+}*/
+
 .numero-pregunta {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 91%;
+    left: 94%;
     transform: translate(-50%, -50%);
+    font-size: 100%;
+    color: darkorange;
 }
 
 .modal {
@@ -75,7 +81,7 @@ Estilos que yo cambié, si algo no funciona debe estar acá
     /* Escondido */
     position: fixed;
     /* en su lugar */
-    z-index: 1;
+    z-index: 10;
     /* en lo más alto */
     padding-top: 100px;
     /* ubicacion */
@@ -100,6 +106,10 @@ Estilos que yo cambié, si algo no funciona debe estar acá
     display: block;
     width: 80%;
     max-width: 700px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    text-align: center;
+    font-size: 250%;
 }
 
 /* caption de la imagen */
@@ -107,22 +117,42 @@ Estilos que yo cambié, si algo no funciona debe estar acá
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
+    font-size: 150%;
+    width: 50%;
+    opacity: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 /* animacion */
 
-.modal-content,
-#caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+.modal-content {
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatetop;
+    animation-duration: 0.8s;
+}
+
+/* Add Animation */
+
+@keyframes animatetop {
+    from {
+        top: -3000px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+#caption:hover,
+#caption:focus,
+#caption:active {
+    opacity: 1;
 }
 
 /* boton de cerrar */
