@@ -131,13 +131,31 @@ var cat2preguntas = [
 var cat3preguntas = [
     'In quale contesto storico nasce il neorealismo italiano?',
     'A cosa si opponeva questo movimento cinematografico?',
-    'Il neo-realismo italiano ha influenzato quella corrente cinematografica importante?'
+    'Il neorealismo italiano ha influenzato quale corrente cinematografica importante?',
+    'Quale film ha inaugurato il movimento del neorealismo italiano?',
+    'È vero che il neorealismo italiano era simile al movimento fascista?',
+    'Quale aspetto era più importante per questo movimento cinematografico, il neorealismo, l\'aspetto estetico o la narrativa?',
+    'Vero o falso: il neorealismo italiano usava solo attori professionisti',
+    'Menziona due registi del neo-realismo italiano',
+    'Vero o falso: I film del Neorealismo hanno cercato di rappresentare la realtà?',
+    'In che anno era la fine del neorealismo italiano?',
+    'Qual è stato l\'ultimo film realizzato nell\'ambito del neorealismo italiano?',
+    'A quale altro formato cinematografico si avvicina il neorealismo italiano?'
 ];
 
 var cat4preguntas = [
     'Dov\'è il gran premio della Formula 1 d\'Italia?',
     'Quali squadre di calcio affrontano nel gioco noto come il derby d\'Italia?',
-    'Ciò che è dovuto la forte rivalità tra Juventus FC e SSC Napoli?'
+    'Ciò che è dovuto la forte rivalità tra Juventus FC e SSC Napoli?',
+    'Che è la squadra italiana più famosa di Formula 1?',
+    'Qual è la competizione ciclistica più importante in Italia?',
+    'Quale ciclista colombiano ha vinto il Giro d\'Italia?',
+    'Nel calcio, quante coppe del mondo ha vinto l\'Italia?',
+    'Qual è lo sport più popolare in Italia?',
+    'Quale posizione occupa l\'Italia nella medaglia olimpica?',
+    'Qual è il torneo di tennis più importante d\'Italia?',
+    'Qual è lo sport invernale più importante in Italia?',
+    'Menzioni una delle tre più grandi squadre di calcio in Italia'
 ];
 
 var cat5preguntas = [
@@ -145,7 +163,14 @@ var cat5preguntas = [
     'Quale evento ha iniziato il Medioevo?',
     'Chi era il capo del movimento fascista in Italia?',
     'chi è l\'attuale presidente d\'Italia?',
-    'Qual è la religione ufficiale in Italia?'
+    'Qual è la religione ufficiale in Italia?',
+    'Qual è la data dell\'indipendenza della Colombia?',
+    'Quale evento segna la fine del Medioevo?',
+    'Quando è stata fondata l\'università di Bologna?',
+    'Qual è l’università più antica in Colombia?',
+    'Quale figlio di Giove è stato il fondatore dei giochi olimpici?',
+    'Alla fine della prima guerra mondiale, in quale gruppo di paesi c\'era il Regno d\'Italia?',
+    'Quando saranno le prossime elezioni presidenziali in Colombia?'
 ];
 
 var cat6preguntas = [
@@ -154,7 +179,13 @@ var cat6preguntas = [
     'A quale velocità viaggia la luce?',
     'A quale numero si riferisce la parola google?',
     'Per i colori in RGB, di che colore è la combinazione di tutti i colori?',
-    'Per i colori in CMYK, di che colore è la combinazione di tutti i colori?'
+    'Per i colori in CMYK, di che colore è la combinazione di tutti i colori?',
+    'Chi fu l\'inventore, pittore e scienziato italiano del Rinascimento che inventò l\'elicottero?',
+    'Qual è il nome del fisico italiano che ha inventato la  pila elettrica e un\'unità di misura è stata chiamata in suo onore?',
+    'Quale elemento della tavola periodica è stato scoperto per la prima volta in Italia?',
+    'Qual è il nome della moto più iconica in Italia?',
+    'Qual è il tipo di energia rinnovabile più utilizzato in Italia?',
+    'Qual è il tipo di energia più utilizzato in Colombia?'
 ];
 
 var preguntas = [
@@ -169,12 +200,12 @@ var preguntas = [
 var cat1respuestas = [
     'R. Questa opera è stata creata da Giuseppe Verdi.',
     'R. Il barocco.',
-    'R. Gabriel García Márquez. ',
+    'R. La Galleria degli Uffizi. ',
     'R. Gabriel García Márquez. ',
     'R. Il David è una celebre scultura realizzata in marmo.',
     'R. Giove.',
     'R. Marte è il dio della guerra, dei duelli e degli spargimenti di sangue.',
-    'R. All’\'arte gotica.',
+    'R. All\'arte gotica.',
     'R. La Pietà vaticana è una scultura marmorea di Michelangelo Buonarroti.',
     'R. Cupido.',
     'R. La Nascita di Venere è un\'opera iconica di Sandro Botticelli.',
@@ -197,32 +228,63 @@ var cat2respuestas = [
 ];
 
 var cat3respuestas = [
-    'R.  Il neorealismo italiano nacque nel dopoguerra nel 1945.',
+    'R. Il neorealismo italiano nacque nel dopoguerra nel 1945.',
     'R. Il neorealismo italiano si opponeva al cinema artificiale, nella sua narrativa e nella sua estetica.',
-    'R. La nuova ondata francese/ Nouvelle Vague.'
+    'R. La nuova ondata francese/ Nouvelle Vague.',
+    'R. Roma città aperta.',
+    'R. Falso.',
+    'R. L\'aspetto narrativo era fondamentale.',
+    'R. Falso.',
+    'R. Roberto Rossellini, Luchino Visconti, Vittorio de Sica, Giuseppe De Santis, Renato Castellani, Pietro Germi.',
+    'R. Vero.',
+    'R. Nel 1951.',
+    'R. Umberto D, Vittorio De Sica.',
+    'R. Cinema documentario.'
 ];
 
 var cat4respuestas = [
     'R. Autodromo Nazionale di Monza, Monza, Italia. È uno dei più vecchi premi della formula 1.',
     'R. Juventus FC VS Intenazionale Milano.',
-    'R. Alla divisione tra nord e sud Italia.'
+    'R. Alla divisione tra nord e sud Italia.',
+    'R. Il Giro d’Italia.',
+    'R. Scuderia Ferrari.',
+    'R. Nairo Quintana.',
+    'R. Quattro.',
+    'R. Il Calcio.',
+    'R. L\'Italia è al sesto posto con 208 medaglie d\'oro.',
+    'R. Masters di Roma.',
+    'R. Sci.',
+    'R. Juventus, Intenazionale Milano, A.C Milan.'
 ];
 
 var cat5respuestas = [
-    'R.  1946, dopo le referendum per finire il fascismo.',
+    'R. 1946, dopo le referendum per finire il fascismo.',
     'R. la caduta dell\'Impero Romano d\'Occidente.',
     'R. Benito Mussolini.',
     'R. Sergio Matarella.',
-    'Non c\'è nessuna. Anche il vaticano è nell’Italia, il cattolicesimo non è la religione ufficiale d\'Italia.'
+    'Non c\'è nessuna. Anche il vaticano è nell’Italia, il cattolicesimo non è la religione ufficiale d\'Italia.',
+    'R. 20 luglio 1810.',
+    'R. La scoperta dell\'America. ',
+    'R. Nel 1088, è l’università più antica del mondo.',
+    'R. L\'Università Santo Tomás.',
+    'R. Ercole.',
+    'R. L\'Italia era con gli alleati.',
+    'R. Il 27 maggio 2018.'
 ];
 
 var cat6respuestas = [
-    'R.   Amadeo Avogadro, il suo numero è la quantità che ha un mol di qualcosa.',
-    'R.   Venere, primo è Mercurio, secondo Venere, terzo la Terra, poi Marte, Giove, Saturno, Urano  e Nettuno. ',
-    'R. 300 000 km/s. La luce è una onda elettromagnete e, così, viaggia con la.velocità di questo tipo di onda.',
+    'R. Amadeo Avogadro, il suo numero è la quantità che ha un mol di qualcosa.',
+    'R. Venere. Primo è Mercurio, secondo Venere, terzo la Terra, poi Marte, Giove, Saturno, Urano  e Nettuno. ',
+    'R. 300 000 km/s. La luce è una onda elettromagnete e, così, viaggia con la velocità di questo tipo di onda.',
     'R. 1 seguito di 100 zeri.',
     'R. Bianco.',
-    'R. Nero.'
+    'R. Nero.',
+    'R. Leonardo da Vinci.',
+    'R. Alessandro Volta.',
+    'R. Tecnezio.',
+    'R. È la Vespa.',
+    'R. Energia solare fotovoltaica.',
+    'R. Energia idroelettrica.'
 ];
 
 var respuestas = [
@@ -487,7 +549,7 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[40].charAt(3) - 1][id[40].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[40].charAt(3) - 1][id[40].substr(1,2) - 1];
 }
-/*
+
 img = document.getElementById(id[41]);
 img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[41].charAt(3) - 1][id[41].substr(1,2) - 1];
@@ -523,7 +585,7 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[47].charAt(3) - 1][id[47].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[47].charAt(3) - 1][id[47].substr(1,2) - 1];
 }
-/*
+
 img = document.getElementById(id[48]);
 img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[48].charAt(3) - 1][id[48].substr(1,2) - 1];
@@ -614,9 +676,36 @@ img.onclick = function () {
 	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[65].charAt(3) - 1][id[65].substr(1,2) - 1];
 	captionText.innerHTML = respuestas[id[65].charAt(3) - 1][id[65].substr(1,2) - 1];
 }
-*/
-
-
+img = document.getElementById(id[66]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[66].charAt(3) - 1][id[66].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[66].charAt(3) - 1][id[66].substr(1,2) - 1];
+}
+img = document.getElementById(id[67]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[67].charAt(3) - 1][id[67].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[67].charAt(3) - 1][id[67].substr(1,2) - 1];
+}
+img = document.getElementById(id[68]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[68].charAt(3) - 1][id[68].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[68].charAt(3) - 1][id[68].substr(1,2) - 1];
+}
+img = document.getElementById(id[69]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[69].charAt(3) - 1][id[69].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[69].charAt(3) - 1][id[69].substr(1,2) - 1];
+}
+img = document.getElementById(id[70]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[70].charAt(3) - 1][id[70].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[70].charAt(3) - 1][id[70].substr(1,2) - 1];
+}
+img = document.getElementById(id[71]);
+img.onclick = function () {
+	modal.style.display = "block";	modalImg.innerHTML = preguntas[id[71].charAt(3) - 1][id[71].substr(1,2) - 1];
+	captionText.innerHTML = respuestas[id[71].charAt(3) - 1][id[71].substr(1,2) - 1];
+}
 
 
 // Get the <span> element that closes the modal
